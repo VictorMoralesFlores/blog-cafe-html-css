@@ -290,6 +290,20 @@ img {
 
 /* Contacto */
 
+.error {
+    background-color: rgb(185,0,0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
+.correcto {
+    background-color: rgb(0,180,0);
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+    text-transform: uppercase;
+}
 .contacto-bg {
     background-image: url(../img/contacto.jpg);
     background-repeat: no-repeat;
@@ -349,4 +363,11 @@ img {
 
 .campo__field--textarea {
     height: 20rem;
+}
+
+/* Desaparicion de elemento*/
+
+.desaparecer {
+    background-color: rgba(0,0,0,0.0);
+    transition: background-color 2s;
 }
